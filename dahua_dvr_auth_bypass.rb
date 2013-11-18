@@ -7,7 +7,6 @@ class Metasploit3 < Msf::Auxiliary
         def initialize
                 super(
                         'Name'           => 'Dahua DVR Auth Bypas Scanner',
-                        'Version'        => '$Revision: 1 $',
                         'Description'    => 'Scans for Dahua-based DVRs and then grabs settings. Optionally resets a user\'s password and clears the device logs',
                         'Author'         => 'Jake Reynolds - Depth Security',
                         'License'        => MSF_LICENSE
